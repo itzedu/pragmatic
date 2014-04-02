@@ -11,12 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20140401081153) do
+=======
+ActiveRecord::Schema.define(version: 20140327081831) do
+>>>>>>> a9843fbb0934e75f8c84827e5d498decbf0310e3
 
   create_table "movies", force: true do |t|
     t.string   "title"
     t.string   "rating"
     t.decimal  "total_gross"
+<<<<<<< HEAD
     t.string   "description"
     t.string   "released_on"
     t.datetime "created_at"
@@ -25,6 +30,12 @@ ActiveRecord::Schema.define(version: 20140401081153) do
     t.string   "director"
     t.string   "duration"
     t.string   "image_file_name"
+=======
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.date     "released_on"
+    t.text     "description"
+>>>>>>> a9843fbb0934e75f8c84827e5d498decbf0310e3
   end
 
 end

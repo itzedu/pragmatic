@@ -43,6 +43,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+<<<<<<< HEAD
 
 
 group :test, :development do
@@ -52,3 +53,5 @@ end
 group :test do
   gem "capybara"
 end
+=======
+>>>>>>> a9843fbb0934e75f8c84827e5d498decbf0310e3

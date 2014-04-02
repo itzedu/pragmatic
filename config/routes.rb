@@ -1,4 +1,5 @@
 Flix::Application.routes.draw do
+<<<<<<< HEAD
   root "movies#index"
   # get "movies" => "movies#index"
   # get "movies/:id" => "movies#show", as: "movie"
@@ -7,3 +8,8 @@ Flix::Application.routes.draw do
 
   resources :movies
 end
+=======
+  get "movies" => "movies#index"
+  get "movies/:id" => "movies#show", as: "movie"
+end
+>>>>>>> a9843fbb0934e75f8c84827e5d498decbf0310e3

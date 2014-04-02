@@ -5,6 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+<<<<<<< HEAD
 Movie.create!([
   {
     title: "Iron Man",
@@ -36,3 +37,5 @@ Movie.create!([
   }
 ])
     
+=======
+>>>>>>> a9843fbb0934e75f8c84827e5d498decbf0310e3
